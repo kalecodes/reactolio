@@ -3,6 +3,8 @@ import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
 import ContactForm from './components/Contact';
+import About from './components/About';
+import Resume from './components/Resume';
 
 function App() {
   const [navItems] = useState([
@@ -52,9 +54,9 @@ function App() {
           <Project
             projects={projects}
           ></Project>
-          {/* <Resume></Resume> */}
+          <Resume></Resume>
           <ContactForm></ContactForm>
-          {/* <About></About> */}
+          <About></About>
         </>
       </main>
       <Footer></Footer>
