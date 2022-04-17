@@ -50,14 +50,17 @@ function App() {
         setCurrentSelected={setCurrentSelected}
       ></Header>
       <main>
-        <>
+        {currentSelected === 'Portfolio' ? (
           <Project
             projects={projects}
           ></Project>
-          <Resume></Resume>
+        ): currentSelected === 'Contact' ? ( 
           <ContactForm></ContactForm>
+        ): currentSelected === 'Resume' ? (
+          <Resume></Resume>
+        ):(
           <About></About>
-        </>
+        )}
       </main>
       <Footer></Footer>
     </div>

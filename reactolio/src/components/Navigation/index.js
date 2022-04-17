@@ -15,7 +15,8 @@ function Nav(props) {
                         currentSelected.name === navItem.name && 'navActive'
                     }`} key={navItem.name}>
                         <span onClick={() => {
-                            setCurrentSelected(navItem)
+                            setCurrentSelected(navItem.name)
+                            console.log(currentSelected)
                         }}
                         >
                             {navItem.name}
