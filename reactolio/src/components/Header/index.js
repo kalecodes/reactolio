@@ -1,12 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Nav from '../Navigation';
 
-function Header(props) {
-    const {
-        navItems = [],
-        // currentNavItem,
-        // setCurrentNavItem
-    } = props;
+function Header() {
+    const [navItems] = useState([
+        {
+          name: 'About me'
+        },
+        {
+          name: 'Portfolio'
+        },
+        {
+          name: 'Contact'
+        },
+        {
+          name: 'Resume'
+        }
+    ])
+    
+      // const [currentNavItem, setCurrentNavItem] = useState(navItems[0]);
 
     return (
         <header className='flex-row px-1'>
@@ -15,7 +26,7 @@ function Header(props) {
                 navItems={navItems}
                 // currentNavItem={currentNavItem}
                 // setCurrentNavItem={setCurrentNavItem}
-            />
+            ></Nav>
         </header>
     )
 }
