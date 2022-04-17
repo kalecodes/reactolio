@@ -20,13 +20,16 @@ function Header() {
       // const [currentNavItem, setCurrentNavItem] = useState(navItems[0]);
 
     return (
-        <header className='flex-row px-1'>
-            <h2>Portfolio Header</h2>
+        <header className='container-fluid'>
+          <div className="row mt-1 p-3 align-items-center">
+            <h2 className="col-sm">Kalen Wiley</h2>
             <Nav 
                 navItems={navItems}
                 // currentNavItem={currentNavItem}
                 // setCurrentNavItem={setCurrentNavItem}
             ></Nav>
+          </div>
+
         </header>
     )
 }

@@ -8,16 +8,16 @@ function Nav(props) {
     } = props;
 
     return (
-        <nav>
-            <ul className='flex-row'>
+        <nav className="col-sm">
+            <div className='row'>
                 {navItems.map((navItem) => (
-                    <li className='mx-1' key={navItem.name}>
+                    <span className='col-sm' key={navItem.name}>
                         <span>
                             {navItem.name}
                         </span>
-                    </li>
+                    </span>
                 ))}
-            </ul>
+            </div>
         </nav>
     )
 }

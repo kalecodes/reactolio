@@ -6,19 +6,19 @@ import Footer from './components/Footer';
 function App() {
   const [projects] = useState([
     {
-      name: 'Example 1',
+      name: 'Handle - Events',
       description: 'Example description 1',
-      image: ''
+      image: 'handle.png'
     },
     {
-      name: 'Example 2',
+      name: 'Crypto Today',
       description: 'Example description 2',
-      image: ''
+      image: 'crypto.png'
     },
     {
-      name: 'Example 3',
+      name: 'Run Buddy',
       description: 'Example description 3',
-      image: ''
+      image: 'runbuddy.png'
     }
   ])
   return (
