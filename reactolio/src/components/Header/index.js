@@ -1,21 +1,13 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Nav from '../Navigation';
 
-function Header() {
-    const [navItems] = useState([
-        {
-          name: 'About me'
-        },
-        {
-          name: 'Portfolio'
-        },
-        {
-          name: 'Contact'
-        },
-        {
-          name: 'Resume'
-        }
-    ])
+function Header(props) {
+    const {
+      navItems = [],
+      currentSelected,
+      setCurrentSelected
+    } = props;
+
     
       // const [currentNavItem, setCurrentNavItem] = useState(navItems[0]);
 
@@ -25,8 +17,8 @@ function Header() {
             <h2 className="col-sm">Kalen Wiley</h2>
             <Nav 
                 navItems={navItems}
-                // currentNavItem={currentNavItem}
-                // setCurrentNavItem={setCurrentNavItem}
+                currentSelected={currentSelected}
+                setCurrentSelected={setCurrentSelected}
             ></Nav>
           </div>
 

@@ -2,8 +2,24 @@ import React, { useState } from 'react';
 import Header from './components/Header';
 import Project from './components/Project';
 import Footer from './components/Footer';
+import ContactForm from './components/Contact';
 
 function App() {
+  const [navItems] = useState([
+    {
+      name: 'About me'
+    },
+    {
+      name: 'Portfolio'
+    },
+    {
+      name: 'Contact'
+    },
+    {
+      name: 'Resume'
+    }
+  ])
+
   const [projects] = useState([
     {
       name: 'Handle - Events',
@@ -21,13 +37,25 @@ function App() {
       image: 'runbuddy.png'
     }
   ])
+
+  const [currentSelected, setCurrentSelected] = useState('');
+
   return (
     <div>
-      <Header></Header>
+      <Header
+        navItems={navItems}
+        currentSelected={currentSelected}
+        setCurrentSelected={setCurrentSelected}
+      ></Header>
       <main>
-        <Project
-          projects={projects}
-        ></Project>
+        <>
+          <Project
+            projects={projects}
+          ></Project>
+          {/* <Resume></Resume> */}
+          <ContactForm></ContactForm>
+          {/* <About></About> */}
+        </>
       </main>
       <Footer></Footer>
     </div>
