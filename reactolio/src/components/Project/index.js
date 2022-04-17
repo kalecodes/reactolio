@@ -8,9 +8,9 @@ function Project(props) {
     return (
         <div>
             {projects.map((project) => (
-                <div>
+                <div key={project.name}>
                     <img alt=''/>
-                    <h3>{project.name}</h3>
+                    <h3 key={project.name}>{project.name}</h3>
                     <p>{project.description}</p>
                 </div>
             ))}

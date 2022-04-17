@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from './components/Header';
 import Project from './components/Project';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 function App() {
   const [projects] = useState([
@@ -29,7 +29,7 @@ function App() {
           projects={projects}
         ></Project>
       </main>
-      {/* <Footer></Footer> */}
+      <Footer></Footer>
     </div>
   );
 }
