@@ -1,17 +1,21 @@
 import React from 'react';
+import Nav from '../Navigation';
 
-function Header() {
+function Header(props) {
+    const {
+        navItems = [],
+        // currentNavItem,
+        // setCurrentNavItem
+    } = props;
+
     return (
         <header className='flex-row px-1'>
             <h2>Portfolio Header</h2>
-            <nav>
-                <ul className='flex-row'>
-                    <li className='mx-2'>About me</li>
-                    <li className='mx-2'>Portfolio</li>
-                    <li className='mx-2'> Contact</li>
-                    <li className='mx-2'>Resume</li>
-                </ul>
-            </nav>
+            <Nav 
+                navItems={navItems}
+                // currentNavItem={currentNavItem}
+                // setCurrentNavItem={setCurrentNavItem}
+            />
         </header>
     )
 }
