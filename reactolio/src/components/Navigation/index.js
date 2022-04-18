@@ -16,7 +16,6 @@ function Nav(props) {
                     }`} key={navItem.name}>
                         <span onClick={() => {
                             setCurrentSelected(navItem.name)
-                            console.log(currentSelected)
                         }}
                         >
                             {navItem.name}
