@@ -8,7 +8,7 @@ function Project(props) {
     return (
         <div className="container">
             {projects.map((project) => (
-                <div className="row mt-5" key={project.name}>
+                <div className="row my-5 pb-5" key={project.name}>
                     <img src={require(`../../assets/images/${project.image}`)} className="col-9 img-thumbnail img-fluid" alt={project.name + ` ` + project.description}/>
                     <div className="col-3">
                         <h3 key={project.name}>{project.name}</h3>

@@ -12,7 +12,7 @@ function Header(props) {
       // const [currentNavItem, setCurrentNavItem] = useState(navItems[0]);
 
     return (
-        <header className='container-fluid'>
+        <header className='container-fluid sticky-top bg-white'>
           <div className="row mt-1 p-3 align-items-center">
             <h2 className="col-sm">Kalen Wiley</h2>
             <Nav 
