@@ -9,6 +9,7 @@ function ContactForm() {
         // target email input element
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
+            console.log(isValid)
             if (!isValid) {
                 setErrorMessage('Your email is invalid.');
             } else {
@@ -37,28 +38,28 @@ function ContactForm() {
 
 
     return (
-        <section>
-            <h1>Contact Me</h1>
+        <section className="container">
+            <h1 className="row justify-content-center py-5">Contact Me</h1>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="form-group mb-3">
                     <label htmlFor="name">Name:</label>
-                    <input type="text" name="name" defaultValue={name} onBlur={handleChange}/>
+                    <input type="text" name="name" className="form-control" defaultValue={name} onBlur={handleChange}/>
                 </div>
-                <div>
+                <div className="form-group mb-3">
                     <label htmlFor="email">Email:</label>
-                    <input type="email" name="email" defaultValue={email} onBlur={handleChange}/>
+                    <input className="form-control" type="email" name="email" defaultValue={email} onBlur={handleChange}/>
                 </div>
-                <div>
+                <div className="form-group mb-3">
                     <label htmlFor="message">Message:</label>
-                    <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
+                    <textarea className="form-control" name="message" rows="5" defaultValue={message} onBlur={handleChange}/>
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p>{errorMessage}</p>
-                    </div>
-                )}
             </form>
-            <button type="submit">Submit</button>
+            {errorMessage && (
+                <div>
+                    <p>{errorMessage}</p>
+                </div>
+            )}
+            <button className="btn btn-outline-primary btn-lg mt-3" type="submit">Submit</button>        
         </section>
     )
 }
