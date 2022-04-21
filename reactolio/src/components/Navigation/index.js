@@ -8,10 +8,10 @@ function Nav(props) {
     } = props;
 
     return (
-        <nav className="col-sm">
+        <nav className="col-md-9 col-lg-6">
             <div className='row'>
                 {navItems.map((navItem) => (
-                    <span className={`col-sm ${
+                    <span className={`col text-center ${
                         currentSelected.name === navItem.name && 'navActive'
                     }`} key={navItem.name}>
                         <span onClick={() => {

@@ -13,6 +13,6 @@ code {
 }
 
 .img-fluid {
-  max-width: 80%;
+  /* max-width: 80%; */
   height: auto;
 }
