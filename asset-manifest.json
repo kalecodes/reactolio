@@ -1,21 +1,26 @@
 {
   "files": {
-    "main.css": "/reactolio/static/css/main.cd89e579.css",
-    "main.js": "/reactolio/static/js/main.44f03a82.js",
+    "main.css": "/reactolio/static/css/main.f5e01b50.css",
+    "main.js": "/reactolio/static/js/main.19bcff90.js",
     "static/js/787.36fee45c.chunk.js": "/reactolio/static/js/787.36fee45c.chunk.js",
     "static/media/headshot.jpg": "/reactolio/static/media/headshot.027c4cd5f7ad2737ac8c.jpg",
     "static/media/runbuddy.png": "/reactolio/static/media/runbuddy.c089a7b9f4c83cf145c0.png",
-    "static/media/natural.png": "/reactolio/static/media/natural.d4c7e1df7e25b6193c6e.png",
+    "static/media/schedulerr.png": "/reactolio/static/media/schedulerr.4641615b32b9ced43738.png",
+    "static/media/locallife.png": "/reactolio/static/media/locallife.d4c7e1df7e25b6193c6e.png",
     "static/media/handle.png": "/reactolio/static/media/handle.6372186673f12d708541.png",
     "static/media/crypto.png": "/reactolio/static/media/crypto.fed992e1f1d899457439.png",
+    "static/media/weather.png": "/reactolio/static/media/weather.fc557b36f52167227ab9.png",
+    "static/media/ogportfolio.png": "/reactolio/static/media/ogportfolio.fa0d44211336b94dd751.png",
     "static/media/grocery.png": "/reactolio/static/media/grocery.3752539600f29d389d5a.png",
+    "static/media/notable.png": "/reactolio/static/media/notable.62949e172faa0f6e6ca4.png",
+    "static/media/github.png": "/reactolio/static/media/github.22cfdd1cba253783ce51.png",
     "index.html": "/reactolio/index.html",
-    "main.cd89e579.css.map": "/reactolio/static/css/main.cd89e579.css.map",
-    "main.44f03a82.js.map": "/reactolio/static/js/main.44f03a82.js.map",
+    "main.f5e01b50.css.map": "/reactolio/static/css/main.f5e01b50.css.map",
+    "main.19bcff90.js.map": "/reactolio/static/js/main.19bcff90.js.map",
     "787.36fee45c.chunk.js.map": "/reactolio/static/js/787.36fee45c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cd89e579.css",
-    "static/js/main.44f03a82.js"
+    "static/css/main.f5e01b50.css",
+    "static/js/main.19bcff90.js"
   ]
 }
