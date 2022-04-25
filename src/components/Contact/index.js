@@ -38,9 +38,9 @@ function ContactForm() {
 
 
     return (
-        <section className="container">
+        <section className="container mb-5">
             <h1 className="row justify-content-center py-5">Contact Me</h1>
-            <form onSubmit={handleSubmit}>
+            <form id="contact-form" onSubmit={handleSubmit}>
                 <div className="form-group mb-3">
                     <label htmlFor="name">Name:</label>
                     <input type="text" name="name" className="form-control" defaultValue={name} onBlur={handleChange}/>
@@ -59,7 +59,7 @@ function ContactForm() {
                     <p>{errorMessage}</p>
                 </div>
             )}
-            <button className="btn btn-outline-primary btn-lg mt-3" type="submit">Submit</button>        
+            <button className="btn btn-outline-primary btn-lg mt-3 mb-5" type="submit">Submit</button>        
         </section>
     )
 }
