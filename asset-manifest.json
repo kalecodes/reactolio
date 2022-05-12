@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/reactolio/static/css/main.f5e01b50.css",
-    "main.js": "/reactolio/static/js/main.af238bc1.js",
+    "main.js": "/reactolio/static/js/main.2b293486.js",
     "static/js/787.36fee45c.chunk.js": "/reactolio/static/js/787.36fee45c.chunk.js",
     "static/media/headshot.jpg": "/reactolio/static/media/headshot.027c4cd5f7ad2737ac8c.jpg",
     "static/media/runbuddy.png": "/reactolio/static/media/runbuddy.c089a7b9f4c83cf145c0.png",
     "static/media/schedulerr.png": "/reactolio/static/media/schedulerr.4641615b32b9ced43738.png",
+    "static/media/maker.png": "/reactolio/static/media/maker.aa9b724ceb5b93b33c47.png",
     "static/media/locallife.png": "/reactolio/static/media/locallife.d4c7e1df7e25b6193c6e.png",
     "static/media/handle.png": "/reactolio/static/media/handle.6372186673f12d708541.png",
     "static/media/crypto.png": "/reactolio/static/media/crypto.fed992e1f1d899457439.png",
@@ -16,11 +17,11 @@
     "static/media/github.png": "/reactolio/static/media/github.22cfdd1cba253783ce51.png",
     "index.html": "/reactolio/index.html",
     "main.f5e01b50.css.map": "/reactolio/static/css/main.f5e01b50.css.map",
-    "main.af238bc1.js.map": "/reactolio/static/js/main.af238bc1.js.map",
+    "main.2b293486.js.map": "/reactolio/static/js/main.2b293486.js.map",
     "787.36fee45c.chunk.js.map": "/reactolio/static/js/787.36fee45c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f5e01b50.css",
-    "static/js/main.af238bc1.js"
+    "static/js/main.2b293486.js"
   ]
 }
