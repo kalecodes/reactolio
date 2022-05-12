@@ -24,6 +24,13 @@ function App() {
 
   const [projects] = useState([
     {
+      name: 'Maker',
+      description: 'MERN-Stack Social & Ecommerce app for artists',
+      image: 'maker.png',
+      drlink: 'https://kw-maker.herokuapp.com/',
+      rlink: 'https://github.com/kalecodes/maker '
+    },
+    {
       name: 'Crypto Today',
       description: 'Example description 2',
       image: 'crypto.png',
